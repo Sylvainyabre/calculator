@@ -1,0 +1,135 @@
+.container{
+    background-color: skyblue;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 25px;
+    padding:2px 2px;
+}
+.calc_name{
+
+    text-align: center;
+    color: tomato;
+    border: 4px ridge;
+    height:auto;
+    width:460px;
+    float: center;
+    margin-left: 300px;
+    margin-top: 25px;
+    }
+
+.display{
+    border: 8px ridge purple;
+    background-color: gray;
+    text-align: right;
+    width: 50%;
+    float:center;
+    margin-left:225px;
+    padding: 25px 55px;
+    color:white;
+    font-size: 25px;
+}
+
+.keys{
+    width: auto;
+    height:auto;
+    border:4px ridge grey;
+    float:center;
+    margin-left:223px;
+    margin-right: 180px;
+    background-color: slategrey;
+    column-count: 1;
+    column-gap: 10px;
+    column-span: all;
+    
+   
+}
+
+button{
+  max-width: 70px;
+  padding:35px 35px;
+  margin-bottom:3px;
+  margin-top: 5px;
+  background-color: tan;
+  font-size: 20px;
+  
+}
+
+.equal-key{
+    padding:35px 192px;
+    background-color: darkcyan;
+   
+}
+
+
+.key:hover{
+    background-color: mediumaquamarine;
+}
+.operator{
+    background-color: darkcyan;
+}
+placeholder{
+    color: white;
+}
+
+
+@media only screen and (max-width: 480px){
+       button{
+  max-width: 30px;
+  padding:15px 15px;
+  margin-bottom:3px;
+  margin-top: 5px;
+  background-color: tan;
+  font-size: 10px;
+  
+}
+
+.equal-key{
+    padding:15px 15px;
+    background-color: darkcyan;
+   
+}
+
+
+    .keys{
+    width: 300px;
+    height:200px;
+    border:4px ridge grey;
+    float:center;
+    margin-left:123px;
+    margin-right: 180px;
+    background-color: slategrey;
+    column-count: 1;
+    column-gap: 10px;
+    column-span: all;
+    
+   
+}
+.display{
+    border: 8px ridge purple;
+    background-color: gray;
+    text-align: right;
+    width: 100%;
+    float:center;
+    margin-left:125px;
+    margin-right:50px;
+    padding: 15px 145px;
+    color:white;
+    font-size: 25px;
+}
+
+.calc_name{
+
+    text-align: center;
+    color: tomato;
+    border: 4px ridge;
+    width:240px;
+    float: center;
+    margin-left: 130px;
+    padding:0px 25px;
+    margin-top: 25px;
+    font-size: 12px;
+    }
+
+
+}
+
